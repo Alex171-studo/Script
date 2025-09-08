@@ -8,6 +8,7 @@ read -rp " Quel méthode de tri voulez-vous utilisé (nom/taille) : " tri
 read -rp " Quel mot-clé voulez-vous utliser pour filtrer les résultats : " filtre
 
 
+
 affiche_result(){
     case $tri in 
         taille)
